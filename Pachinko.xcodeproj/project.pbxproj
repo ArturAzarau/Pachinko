@@ -9,25 +9,27 @@
 /* Begin PBXBuildFile section */
 		72363A8F211460E600EFABE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72363A8E211460E600EFABE9 /* AppDelegate.swift */; };
 		72363A91211460E600EFABE9 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 72363A90211460E600EFABE9 /* GameScene.sks */; };
-		72363A93211460E600EFABE9 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 72363A92211460E600EFABE9 /* Actions.sks */; };
 		72363A95211460E600EFABE9 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72363A94211460E600EFABE9 /* GameScene.swift */; };
 		72363A97211460E600EFABE9 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72363A96211460E600EFABE9 /* GameViewController.swift */; };
 		72363A9A211460E600EFABE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72363A98211460E600EFABE9 /* Main.storyboard */; };
 		72363A9C211460E700EFABE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72363A9B211460E700EFABE9 /* Assets.xcassets */; };
 		72363A9F211460E700EFABE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72363A9D211460E700EFABE9 /* LaunchScreen.storyboard */; };
+		72363AA72115B4ED00EFABE9 /* Content in Resources */ = {isa = PBXBuildFile; fileRef = 72363AA62115B4ED00EFABE9 /* Content */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		72363A8B211460E600EFABE9 /* Pachinko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pachinko.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72363A8E211460E600EFABE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72363A90211460E600EFABE9 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		72363A92211460E600EFABE9 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		72363A94211460E600EFABE9 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		72363A96211460E600EFABE9 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		72363A99211460E600EFABE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		72363A9B211460E700EFABE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72363A9E211460E700EFABE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72363AA0211460E700EFABE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72363AA62115B4ED00EFABE9 /* Content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Content; sourceTree = "<group>"; };
+		72363AA82115B6A300EFABE9 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		72363AA92115B6A700EFABE9 /* background@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background@2x.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +64,11 @@
 			children = (
 				72363A8E211460E600EFABE9 /* AppDelegate.swift */,
 				72363A90211460E600EFABE9 /* GameScene.sks */,
-				72363A92211460E600EFABE9 /* Actions.sks */,
 				72363A94211460E600EFABE9 /* GameScene.swift */,
 				72363A96211460E600EFABE9 /* GameViewController.swift */,
+				72363AA82115B6A300EFABE9 /* background.jpg */,
+				72363AA92115B6A700EFABE9 /* background@2x.jpg */,
+				72363AA62115B4ED00EFABE9 /* Content */,
 				72363A98211460E600EFABE9 /* Main.storyboard */,
 				72363A9B211460E700EFABE9 /* Assets.xcassets */,
 				72363A9D211460E700EFABE9 /* LaunchScreen.storyboard */,
@@ -133,9 +137,9 @@
 			files = (
 				72363A9A211460E600EFABE9 /* Main.storyboard in Resources */,
 				72363A91211460E600EFABE9 /* GameScene.sks in Resources */,
+				72363AA72115B4ED00EFABE9 /* Content in Resources */,
 				72363A9C211460E700EFABE9 /* Assets.xcassets in Resources */,
 				72363A9F211460E700EFABE9 /* LaunchScreen.storyboard in Resources */,
-				72363A93211460E600EFABE9 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,7 +305,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.arturazarau.Pachinko;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -318,7 +322,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.arturazarau.Pachinko;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
